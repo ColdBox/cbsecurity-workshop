@@ -1,0 +1,11 @@
+{
+    "name":"myadmin",
+    "web":{
+        "HTTPP":{
+            "port":"42518"
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}

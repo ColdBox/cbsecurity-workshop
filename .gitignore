@@ -5,6 +5,7 @@ src/**
 app/coldbox
 app/modules
 app/testbox
+app/.env
 
 # DB Data
 db/data
