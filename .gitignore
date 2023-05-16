@@ -1,0 +1,10 @@
+# Dependencies
+src/**
+
+# Completed App
+app/coldbox
+app/modules
+app/testbox
+
+# DB Data
+db/data
