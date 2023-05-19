@@ -68,10 +68,21 @@ DB_BUNDLEVERSION=8.0.30
 DB_DRIVER=MySQL
 DB_HOST=127.0.0.1
 DB_PORT=4306
-DB_DATABASE=myadmin
+DB_DATABASE=lmajano
 DB_USER=root
-DB_PASSWORD=myadmin
+DB_PASSWORD=lmajano
 ```
+
+
+```
+mysql
+CREATE USER 'lmajano'@'%' IDENTIFIED BY 'lmajano';
+GRANT ALL PRIVILEGES ON *.* TO 'lmajano'@'%';
+exit;
+service mysql restart
+```
+
+
 
 ### Test the Environment
 

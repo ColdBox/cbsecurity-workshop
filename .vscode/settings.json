@@ -6,11 +6,11 @@
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 43060,
+            "port": 33060,
             "driver": "MySQL",
             "name": "myadmin",
             "database": "myadmin",
-            "username": "root",
+            "username": "lmajano",
             "connectionTimeout": 2000,
             "askForPassword": true
         }
